@@ -24,7 +24,7 @@ For this project, we leveraged **ResNet50**, a deep residual learning framework 
 ---
 
 ###  Performance & The Confusion Matrix
-Our model achieved a **91% overall accuracy**, a strong benchmark for clinical-grade analysis. To understand how "strong" this really is, we look at the **Confusion Matrix**:
+Our model achieved a **91.86%(calculated from the confusion matrix as well) overall accuracy**, a strong benchmark for clinical-grade analysis. To understand how "strong" this really is, we look at the **Confusion Matrix**:
 
 1.  **High Diagonal Confidence**: Most predictions fall on the central diagonal line, meaning the model isn't just lucky—it truly knows the difference between a Glioma and a Meningioma.
 2.  **Precision Across Classes**: The matrix shows that even with varying sample sizes (class imbalance), the model maintains a high "hit rate" for both common and rare tumor types.
