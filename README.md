@@ -1,4 +1,4 @@
-# Neural-NEXUS: Robust Brain Tumor Analysis
+# Neural-NEXUS: Brain Tumor Analysis
 
 This repository houses a comprehensive, AI/ML-driven deep learning system designed for robust brain tumor analysis and classification using MRI imaging. The system was meticulously developed to combat fundamental real-world clinical challenges such as dataset class disparity, inter-patient variability, and black-box interpretability issues.
 
