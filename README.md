@@ -16,6 +16,8 @@ This repository houses a comprehensive, AI/ML-driven deep learning system design
 <img width="1392" height="1046" alt="image" src="https://github.com/user-attachments/assets/3f6a8497-37ef-4abd-9422-00cd68ef4604" />
 
 ## Model Predictions:
+
+## Predisction 2
 <img width="1013" height="492" alt="image" src="https://github.com/user-attachments/assets/6d22032e-b411-4c6c-a83d-e0a391909178" />
 
 ## Prediction 2
