@@ -56,6 +56,11 @@ Our model achieved a **85.88% overall accuracy**, a strong benchmark for clinica
 
 ---
 
+### Data Preprocessing
+Our preprocessing pipeline is built to handle the real-world inconsistencies often found in medical imaging. To ensure the model focuses on relevant features, we first standardized all MRI scans to a uniform 224x224 resolution. We then applied a strategic augmentation suite—incorporating random horizontal flips and 15-degree rotations—which mimics variations in patient positioning and scanner alignment. To optimize transfer learning, every image was normalized using standard ImageNet statistics, aligning our data with the "knowledge" already embedded in the pre-trained ResNet backbone. Most importantly, we addressed the natural class imbalance in tumor types by calculating specific weights for each category, ensuring that rarer tumor cases receive the same clinical attention as common ones during the learning process.
+
+---
+
 ###  Clinical Explainability (Grad-CAM)
 We didn't just build a "black box." Our system uses **Grad-CAM (Gradient-weighted Class Activation Mapping)** to highlight exactly where the model is looking when it makes a diagnosis.
 
