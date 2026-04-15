@@ -19,6 +19,7 @@ This repository houses a comprehensive, AI/ML-driven deep learning system design
 
 ## Predisction 2
 <img width="1013" height="492" alt="image" src="https://github.com/user-attachments/assets/6d22032e-b411-4c6c-a83d-e0a391909178" />
+Clinical Heatmap (Grad-CAM)\nTumor Localization
 
 ## Prediction 2
 <img width="895" height="461" alt="Screenshot 2026-04-15 at 5 10 05 PM" src="https://github.com/user-attachments/assets/f49be335-3013-437c-a29b-6b7121c7c2f4" />
