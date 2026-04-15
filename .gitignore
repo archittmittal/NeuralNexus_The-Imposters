@@ -1,0 +1,17 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# ML Output files
+*.pth
+*.pt
+*model*.pth
+
+# Dataset Directories (Do not push millions of images to GitHub)
+glioma/
+meningioma/
+notumor/
+pituitary/
+
+# IDE/OS files
+.DS_Store
