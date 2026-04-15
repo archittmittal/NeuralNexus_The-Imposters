@@ -12,7 +12,7 @@ This repository houses a comprehensive, AI/ML-driven deep learning system design
 
 ---
 
-## 🧠 Model Architecture: ResNet50 for MRI Analysis
+##  Model Architecture: ResNet50 for MRI Analysis
 
 For this project, we leveraged **ResNet50**, a deep residual learning framework that is widely considered the "gold standard" for complex image recognition tasks. 
 
@@ -23,7 +23,7 @@ For this project, we leveraged **ResNet50**, a deep residual learning framework 
 
 ---
 
-### 📊 Performance & The Confusion Matrix
+###  Performance & The Confusion Matrix
 Our model achieved a **91% overall accuracy**, a strong benchmark for clinical-grade analysis. To understand how "strong" this really is, we look at the **Confusion Matrix**:
 
 1.  **High Diagonal Confidence**: Most predictions fall on the central diagonal line, meaning the model isn't just lucky—it truly knows the difference between a Glioma and a Meningioma.
@@ -32,7 +32,7 @@ Our model achieved a **91% overall accuracy**, a strong benchmark for clinical-g
 
 ---
 
-### 🔍 Clinical Explainability (Grad-CAM)
+###  Clinical Explainability (Grad-CAM)
 We didn't just build a "black box." Our system uses **Grad-CAM (Gradient-weighted Class Activation Mapping)** to highlight exactly where the model is looking when it makes a diagnosis.
 
 *   **Heatmap Visualization**: The model generates a thermal map over the MRI. A "hot" red area indicates the specific region the AI identified as suspicious.
@@ -40,7 +40,7 @@ We didn't just build a "black box." Our system uses **Grad-CAM (Gradient-weighte
 
 ---
 
-### ⚙️ Technical Specs
+###  Technical Specs
 *   **Optimizer**: AdamW (for better weight decay and generalization)
 *   **Scheduler**: ReduceLROnPlateau (automatically slows down learning to "fine-tune" when performance plateaus)
 *   **Regularization**: 50% Dropout layer to prevent the model from simply memorizing the training data.
