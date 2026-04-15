@@ -72,6 +72,7 @@ We didn't just build a "black box." Our system uses **Grad-CAM (Gradient-weighte
 
 ## Confusion Matrix: Clinical Performance Analysis
 <img width="1392" height="1046" alt="image" src="https://github.com/user-attachments/assets/3f6a8497-37ef-4abd-9422-00cd68ef4604" />
+Confusion Matrix Accuracy **91.88%**
 
 ## Model Predictions:
 
