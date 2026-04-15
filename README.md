@@ -1,4 +1,6 @@
-# Neural-NEXUS: Brain Tumor Analysis
+## Neural-NEXUS: Brain Tumor Analysis
+#Problem Statement: 
+Design and develop an AI/ML-driven system capable of robust brain tumor analysis using MRI images from the provided dataset, going beyond basic classification to address real-world clinical challenges such as class imbalance, inter-patient variability, noise, and limited annotations. The objective is to build a model that can not only accurately detect tumour type but also learn meaningful feature representations to support tasks such as tumor localization, uncertainty estimation, or anomaly detection for unseen patterns. Participants are expected to incorporate effective preprocessing and augmentation strategies, handle dataset inconsistencies, and design architectures or pipelines that improve generalization and reliability. Innovative approaches that enhance interpretability (e.g., attention maps or explainability techniques), leverage semi-supervised or self-supervised learning for limited labels, or improve scalability and domain adaptability will be encouraged, with emphasis on creating a clinically relevant, efficient, and trustworthy solution.
 
 This repository houses a comprehensive, AI/ML-driven deep learning system designed for robust brain tumor analysis and classification using MRI imaging. The system was meticulously developed to combat fundamental real-world clinical challenges such as dataset class disparity, inter-patient variability, and black-box interpretability issues.
 
