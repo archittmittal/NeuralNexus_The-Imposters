@@ -81,5 +81,9 @@ The model is identifying no tumour by looking at the specific healthy part of th
 ## Prediction 3
 <img width="1768" height="926" alt="image" src="https://github.com/user-attachments/assets/d8a946fb-fb62-4c15-8086-2b481171e6fa" />
 
+## Prediction 4
+<img width="878" height="464" alt="Screenshot 2026-04-15 at 5 21 23 PM" src="https://github.com/user-attachments/assets/b882cbe1-7e8a-4683-9b17-6418027beda7" />
+
+
 
 
