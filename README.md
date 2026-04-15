@@ -42,6 +42,11 @@ For this project, we leveraged **ResNet50**, a deep residual learning framework 
 
 ---
 
+## Methodology
+Our system follows a streamlined, high-performance pipeline designed for clinical reliability. It begins with raw MRI input, which undergoes robust preprocessing—including standardized ImageNet normalization and strategic augmentations like horizontal flips and rotations to account for patient positioning variability. These processed images are then fed into a ResNet50 backbone, leveraging its 50 layers of residual learning to extract deep, intricate feature representations without the risk of information loss. The data flows through these residual blocks into a custom-designed classification head, featuring a 50% Dropout layer to prevent overfitting and ensure the model generalizes well to new, unseen scans. Finally, the system outputs a definitive classification across four tumor types, while simultaneously triggering a Grad-CAM interpretability module. This module back-propagates the gradients to the final convolutional layer, generating a visual "attention map" that highlights the exact pathological regions the AI prioritized, turning a complex decision process into a transparent, verifiable tool for clinical review.
+
+---
+
 ###  Performance & The Confusion Matrix
 Our model achieved a **85.88% overall accuracy**, a strong benchmark for clinical-grade analysis. To understand how "strong" this really is, we look at the **Confusion Matrix**:
 
