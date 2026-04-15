@@ -13,6 +13,19 @@ This repository houses a comprehensive, AI/ML-driven deep learning system design
 
 ## Dataset Details 
  Kaggle dataset link - https://www.kaggle.com/datasets/purvanshjoshi1/healthcare
+ the dataset contains the imaged of 4 types of brain tumors namely glioma
+
+5625 images 
+meningioma
+
+3978 images 
+notumor
+
+3847 images
+notumor
+
+4363 images
+pituitary
 
 ##  Model Architecture: ResNet50 for MRI Analysis
 
