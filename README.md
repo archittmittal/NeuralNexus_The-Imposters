@@ -12,6 +12,6 @@ This repository houses a comprehensive, AI/ML-driven deep learning system design
 
 ---
 
-## Conusion Matrix
+## Confusion Matrix: Clinical Performance Analysis
 <img width="1392" height="1046" alt="image" src="https://github.com/user-attachments/assets/3f6a8497-37ef-4abd-9422-00cd68ef4604" />
 
