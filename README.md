@@ -59,4 +59,8 @@ Clinical Heatmap (Grad-CAM)\nTumor Localization
 <img width="895" height="461" alt="Screenshot 2026-04-15 at 5 10 05 PM" src="https://github.com/user-attachments/assets/f49be335-3013-437c-a29b-6b7121c7c2f4" />
 The model is identifying no tumour by looking at the specific healthy part of the brain.
 
+## Prediction 3
+<img width="1768" height="926" alt="image" src="https://github.com/user-attachments/assets/d8a946fb-fb62-4c15-8086-2b481171e6fa" />
+
+
 
