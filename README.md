@@ -50,23 +50,3 @@ flowchart TD
 
 ---
 
-## 🚀 Deployment Guide
-
-### Kaggle Notebook Execution
-The system is heavily optimized for zero-setup execution inside of Kaggle.
-1. Create a Kaggle notebook and attach your Brain Tumor MRI dataset.
-2. Select **GPU Accelerator (T4x2 or P100)** from the session settings.
-3. Simply paste the contents of `kaggle_cells.md` into your notebook and run. *The script will intelligently auto-discover the file structure.*
-
-### Local Execution
-To deploy locally, ensure Python 3.10+ is installed alongside your preferred package manager.
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Start the automated Training loop (Requires local GPU/MPS)
-python train_model.py
-
-# 3. Generate Clinical Attention Maps
-python evaluate_and_explain.py
-```
