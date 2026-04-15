@@ -10,7 +10,9 @@ This repository houses a comprehensive, AI/ML-driven deep learning system design
 - **Deep Transfer Learning:** Replaces primitive architectures with a robust `EfficientNet/ResNet50` classifier backbone customized with high dropout (0.5) to isolate pure tumor features.
 - **Clinical Explainability (Grad-CAM):** Instead of issuing blind predictions, the architecture overlays vivid heatmaps onto the native MRI structure, highlighting the specific structural anomalies the AI evaluated to form its diagnosis.
 
----
+
+## Dataset Details 
+# Kaggle dataset link - https://www.kaggle.com/datasets/purvanshjoshi1/healthcare
 
 ##  Model Architecture: ResNet50 for MRI Analysis
 
