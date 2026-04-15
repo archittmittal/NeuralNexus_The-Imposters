@@ -12,6 +12,40 @@ This repository houses a comprehensive, AI/ML-driven deep learning system design
 
 ---
 
+## 🧠 Model Architecture: ResNet50 for MRI Analysis
+
+For this project, we leveraged **ResNet50**, a deep residual learning framework that is widely considered the "gold standard" for complex image recognition tasks. 
+
+### Why ResNet50?
+*   **Deep Feature Extraction**: With 50 layers of depth, the model can "see" subtle textures and density variations in MRI scans that the human eye might miss.
+*   **The Residual Advantage**: Its unique "skip-connection" architecture allows it to learn without the risk of losing information in deeper layers (vanishing gradients), making it incredibly stable during training.
+*   **Transfer Learning**: We used a model pre-trained on millions of images and fine-tuned it specifically on brain tumor datasets. This gave our AI a massive "head start" in understanding basic shapes and structures before we taught it to find tumors.
+
+---
+
+### 📊 Performance & The Confusion Matrix
+Our model achieved a **91% overall accuracy**, a strong benchmark for clinical-grade analysis. To understand how "strong" this really is, we look at the **Confusion Matrix**:
+
+1.  **High Diagonal Confidence**: Most predictions fall on the central diagonal line, meaning the model isn't just lucky—it truly knows the difference between a Glioma and a Meningioma.
+2.  **Precision Across Classes**: The matrix shows that even with varying sample sizes (class imbalance), the model maintains a high "hit rate" for both common and rare tumor types.
+3.  **Trust but Verify**: By seeing where the model *rarely* gets confused, we can identify which tumor types look visually similar (like certain Gliomas vs. Meningiomas), allowing for better human-in-the-loop review.
+
+---
+
+### 🔍 Clinical Explainability (Grad-CAM)
+We didn't just build a "black box." Our system uses **Grad-CAM (Gradient-weighted Class Activation Mapping)** to highlight exactly where the model is looking when it makes a diagnosis.
+
+*   **Heatmap Visualization**: The model generates a thermal map over the MRI. A "hot" red area indicates the specific region the AI identified as suspicious.
+*   **Building Trust**: This allows doctors to see *why* the AI predicted a certain tumor type, making the model a collaborative tool rather than just a prediction engine.
+
+---
+
+### ⚙️ Technical Specs
+*   **Optimizer**: AdamW (for better weight decay and generalization)
+*   **Scheduler**: ReduceLROnPlateau (automatically slows down learning to "fine-tune" when performance plateaus)
+*   **Regularization**: 50% Dropout layer to prevent the model from simply memorizing the training data.
+
+
 ## Confusion Matrix: Clinical Performance Analysis
 <img width="1392" height="1046" alt="image" src="https://github.com/user-attachments/assets/3f6a8497-37ef-4abd-9422-00cd68ef4604" />
 
