@@ -12,7 +12,7 @@ This repository houses a comprehensive, AI/ML-driven deep learning system design
 
 
 ## Dataset Details 
-# Kaggle dataset link - https://www.kaggle.com/datasets/purvanshjoshi1/healthcare
+ Kaggle dataset link - https://www.kaggle.com/datasets/purvanshjoshi1/healthcare
 
 ##  Model Architecture: ResNet50 for MRI Analysis
 
