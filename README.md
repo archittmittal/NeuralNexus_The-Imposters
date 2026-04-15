@@ -67,7 +67,7 @@ We didn't just build a "black box." Our system uses **Grad-CAM (Gradient-weighte
 
 ## Model Predictions:
 
-## Predisction 2
+## Prediction 2
 <img width="1013" height="492" alt="image" src="https://github.com/user-attachments/assets/6d22032e-b411-4c6c-a83d-e0a391909178" />
 Clinical Heatmap (Grad-CAM)\nTumor Localization
 
