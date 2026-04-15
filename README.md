@@ -69,6 +69,10 @@ We didn't just build a "black box." Our system uses **Grad-CAM (Gradient-weighte
 *   **Scheduler**: ReduceLROnPlateau (automatically slows down learning to "fine-tune" when performance plateaus)
 *   **Regularization**: 50% Dropout layer to prevent the model from simply memorizing the training data.
 
+  ##   Configuration
+  To ensure the model reaches its peak performance without over-fitting, we carefully tuned our environment with a balanced configuration. We utilized a batch size of 32 for stable gradient updates and set a learning rate of 1e-4, which is the "sweet spot" for fine-tuning pre-trained architectures like ResNet50. For optimization, we chose the AdamW algorithm for its superior weight decay capabilities, paired with a 'ReduceLROnPlateau' scheduler that dynamically sharpens the model’s focus as training stabilizes. The entire pipeline is built to be device-agnostic, automatically leveraging high-speed CUDA or MPS hardware when available, ensuring that the system is not only accurate but also computationally efficient and scalable across different platforms.
+
+
 
 ## Confusion Matrix: Clinical Performance Analysis
 <img width="1392" height="1046" alt="image" src="https://github.com/user-attachments/assets/3f6a8497-37ef-4abd-9422-00cd68ef4604" />
