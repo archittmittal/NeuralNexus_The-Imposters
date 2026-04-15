@@ -11,3 +11,7 @@ This repository houses a comprehensive, AI/ML-driven deep learning system design
 - **Clinical Explainability (Grad-CAM):** Instead of issuing blind predictions, the architecture overlays vivid heatmaps onto the native MRI structure, highlighting the specific structural anomalies the AI evaluated to form its diagnosis.
 
 ---
+
+## Conusion Matrix
+<img width="1392" height="1046" alt="image" src="https://github.com/user-attachments/assets/3f6a8497-37ef-4abd-9422-00cd68ef4604" />
+
