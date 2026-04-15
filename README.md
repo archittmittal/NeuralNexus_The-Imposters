@@ -22,6 +22,6 @@ This repository houses a comprehensive, AI/ML-driven deep learning system design
 
 ## Prediction 2
 <img width="895" height="461" alt="Screenshot 2026-04-15 at 5 10 05 PM" src="https://github.com/user-attachments/assets/f49be335-3013-437c-a29b-6b7121c7c2f4" />
-The model is identifying notumour by looking at the specific healthy part of the brain.
+The model is identifying no tumour by looking at the specific healthy part of the brain.
 
 
