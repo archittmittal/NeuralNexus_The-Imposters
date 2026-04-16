@@ -94,9 +94,3 @@ The system demonstrated a **91.88% confusion matrix accuracy**, proof of its the
 <img width="878" height="464" alt="Prediction 4" src="https://github.com/user-attachments/assets/b882cbe1-7e8a-4683-9b17-6418027beda7" />
 
 ---
-
-## Future Scope
-
-The expansion of Neural-NEXUS focuses on two theoretical frontiers:
-1.  **Bayesian Uncertainty**: Implementing Monte Carlo Dropout to provide a theoretical confidence bound for every diagnosis.
-2.  **Volumetric Analysis**: Moving from 2D slices to 3D convolutional architectures to capture the full spatial context of neurological pathologies.
