@@ -93,4 +93,8 @@ The system demonstrated a **91.88% confusion matrix accuracy**, proof of its the
 <img width="1768" height="926" alt="Full Report" src="https://github.com/user-attachments/assets/d8a946fb-fb62-4c15-8086-2b481171e6fa" />
 <img width="878" height="464" alt="Prediction 4" src="https://github.com/user-attachments/assets/b882cbe1-7e8a-4683-9b17-6418027beda7" />
 
+#### Summary
+<img width="1730" height="952" alt="image" src="https://github.com/user-attachments/assets/6205b700-5f1b-4b85-9e4c-60a5cd0d6702" />
+
+
 ---
